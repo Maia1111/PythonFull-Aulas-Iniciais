@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <table align="center"  width="80%">
+            <tr>
+                <td>
+                    <img height="80" widht="120" src="imagens/logo.jpeg" alt="">
+                    <td align="right">
+                        <a padding="2" href="#">Home</a>
+                        <a href="#">Contato</a>
+                        <a href="#">Saiba mais</a>
+                    </td>
+                </td>
+            </tr> 
+        </table>
+        <hr>            
+    </header>
+   <div align="center">
+    <form method="POST" action="arquivo.py">
+        Nome: <br>
+        <input type="text" name="nome" placeholder="Digite seu nome...">
+        <br>
+        Senha: <br>
+        <input type="password" name="senha" placeholder="senha...">
+        <br> 
+        cidade: <br>
+        <select name="cidade">
+            <option value="F">Franca</option>
+            <option value="S">São Paulo</option>
+            <option value="R">Ribeirão Preto</option>
+        </select>
+        <br> 
+        Masculino   
+        <input type="radio" name="sexo">
+        <br>
+        Feminino
+        <input type="radio" name="sexo">
+        <br>
+        <button type="submit">Enviar</button>
+
+    </form>
+   </div>
+    
+  
+</body>
+</html>

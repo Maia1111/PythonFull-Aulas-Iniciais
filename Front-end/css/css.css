@@ -1,0 +1,18 @@
+h1,
+h2 {
+    color: red;
+    font-family: monospace;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+#texto1 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto1 {
+    color: blue;
+}
